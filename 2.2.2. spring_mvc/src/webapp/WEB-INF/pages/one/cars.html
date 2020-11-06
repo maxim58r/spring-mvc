@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cars</title>
+</head>
+<body>
+Cars!!!
+<div th:each="car : ${cars}">
+    <a  th:text="${car.toString()}">vehicle</a>
+</div>
+<a href="/owner">Owner</a>
+or <a href="/three/exit">EXIT</a>
+</body>
+</html>
+
+<!--th:href="@{}"-->
