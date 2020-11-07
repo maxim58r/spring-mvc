@@ -5,22 +5,13 @@ package web.model;
 /**
  * @author Serov Maxim
  */
-//@Entity
-//@Table(name = "cars")
 public class Car {
-
-//    @Id
-//    @Column(name = "id")
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-//    @Column(name = "brand")
     private String brand;
 
-//    @Column(name = "model")
     private String model;
 
-//    @Column(name = "horsePower")
     private int horsePower;
 
     public Car() {
